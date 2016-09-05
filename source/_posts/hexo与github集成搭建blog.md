@@ -33,7 +33,7 @@ $ npm install
 
 - 基本命令
   * new
-  ``` hexo new <layout> pageName ```
+  `hexo new <layout> pageName `
     新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout           参数代替。如果标题包含空格的话，需用引号括起来。
   * server
  本地启动nodejs服务器，可通过url访问
@@ -59,6 +59,8 @@ deploy:
     branch: master
 ```
 执行 `npm install hexo-deployer-git --save` 此外需要在github上配置了本机的ssh key。
+
+
 ```
 hexo new "page" 创建一片新文章
 hexo clean
